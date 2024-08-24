@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "version": "1.0",
-    "creationDate": "24.08.2024"
+    "creationDate": "25.08.2024"
   },
   "module.combat.antibot.name": {
     "state": true,
@@ -52,7 +52,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "keyCode": 19,
     "Attack Mode*1": {
       "value": "Switch"
@@ -112,7 +112,7 @@
       "value": "Legit/Normal"
     },
     "Attack whilst Scaffolding*19": {
-      "value": false
+      "value": true
     },
     "No Inventory*20": {
       "value": false
@@ -120,28 +120,31 @@
     "No Blink*21": {
       "value": true
     },
-    "No swing*22": {
+    "Attack with action*22": {
       "value": false
     },
-    "Auto disable*23": {
+    "No swing*23": {
       "value": false
     },
-    "Prevent Grim false positives*24": {
+    "Auto disable*24": {
       "value": false
     },
-    "Targets*25": {
+    "Prevent Grim false positives*25": {
+      "value": false
+    },
+    "Targets*26": {
       "value": true
     },
-    "Player*26": {
+    "Player*27": {
       "value": true
     },
-    "Invisibles*27": {
+    "Invisibles*28": {
       "value": false
     },
-    "Animals*28": {
+    "Animals*29": {
       "value": false
     },
-    "Mobs*29": {
+    "Mobs*30": {
       "value": false
     }
   },
@@ -278,7 +281,7 @@
     }
   },
   "module.combat.teams.name": {
-    "state": false,
+    "state": true,
     "keyCode": 0,
     "Armor Color*1": {
       "value": false
@@ -717,9 +720,9 @@
   },
   "module.movement.flight.name": {
     "state": false,
-    "keyCode": 0,
+    "keyCode": 35,
     "Mode*1": {
-      "value": "Vanilla"
+      "value": "GrimAC Vertical"
     },
     "Speed*2": {
       "value": 1.0
@@ -1380,6 +1383,9 @@
     },
     "Close when no golden apple*4": {
       "value": true
+    },
+    "Notification*5": {
+      "value": true
     }
   },
   "module.player.autotool.name": {
@@ -1444,7 +1450,7 @@
     "state": false,
     "keyCode": 0,
     "Range*1": {
-      "value": 4.5
+      "value": 4.9
     },
     "Rotation*2": {
       "value": true
@@ -1457,8 +1463,8 @@
       "value": true
     },
     "Delay*5": {
-      "first": 0.0,
-      "second": 0.0
+      "first": 300.0,
+      "second": 450.0
     }
   },
   "module.player.fastbreak.name": {
@@ -1642,7 +1648,7 @@
       "value": "Auto Jump"
     },
     "Hide Jump*11": {
-      "value": false
+      "value": true
     },
     "Rotation Speed*12": {
       "first": 10.0,
@@ -1659,7 +1665,7 @@
       "value": true
     },
     "Click Spoof*16": {
-      "value": true
+      "value": false
     },
     "Click Rate*17": {
       "first": 0.4,
@@ -1832,7 +1838,7 @@
     "keyCode": 0,
     "*1": {
       "positionX": 4.5,
-      "positionY": 229.5,
+      "positionY": 116.5,
       "scaleX": 109.5,
       "scaleY": 59.0
     },
@@ -1951,8 +1957,8 @@
     "state": true,
     "keyCode": 0,
     "*1": {
-      "positionX": 389.0,
-      "positionY": 479.0,
+      "positionX": 229.0,
+      "positionY": 299.0,
       "scaleX": 182.0,
       "scaleY": 22.0
     }
@@ -2055,7 +2061,7 @@
     "*27": {
       "positionX": 4.5,
       "positionY": 4.5,
-      "scaleX": 284.0,
+      "scaleX": 274.0,
       "scaleY": 17.0
     },
     "Modules to Show*28": {
@@ -2159,7 +2165,7 @@
     }
   },
   "module.render.radar.name": {
-    "state": true,
+    "state": false,
     "keyCode": 0,
     "Glow Mode*1": {
       "value": "Colored"
@@ -2184,10 +2190,10 @@
     "state": true,
     "keyCode": 0,
     "Position*1": {
-      "positionX": 894.5,
+      "positionX": 865.5,
       "positionY": 230.5,
-      "scaleX": 61.0,
-      "scaleY": 87.0
+      "scaleX": 90.0,
+      "scaleY": 96.0
     }
   },
   "module.render.sessionstats.name": {
@@ -2213,7 +2219,7 @@
     },
     "*7": {
       "positionX": 4.5,
-      "positionY": 139.5,
+      "positionY": 31.5,
       "scaleX": 111.0,
       "scaleY": 80.0
     }
@@ -2257,9 +2263,9 @@
       "value": "Glass"
     },
     "Position*6": {
-      "positionX": 642.0,
+      "positionX": 636.0,
       "positionY": 375.5,
-      "scaleX": 156.0,
+      "scaleX": 162.0,
       "scaleY": 48.0
     },
     "Follow Player*7": {
