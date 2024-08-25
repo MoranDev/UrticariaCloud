@@ -52,7 +52,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": true,
+    "state": false,
     "keyCode": 19,
     "Attack Mode*1": {
       "value": "Switch"
@@ -120,31 +120,25 @@
     "No Blink*21": {
       "value": true
     },
-    "Attack with action*22": {
+    "No swing*22": {
       "value": false
     },
-    "No swing*23": {
+    "Auto disable*23": {
       "value": false
     },
-    "Auto disable*24": {
-      "value": false
-    },
-    "Prevent Grim false positives*25": {
-      "value": false
-    },
-    "Targets*26": {
+    "Targets*24": {
       "value": true
     },
-    "Player*27": {
+    "Player*25": {
       "value": true
     },
-    "Invisibles*28": {
+    "Invisibles*26": {
       "value": false
     },
-    "Animals*29": {
+    "Animals*27": {
       "value": false
     },
-    "Mobs*30": {
+    "Mobs*28": {
       "value": false
     }
   },
@@ -1184,7 +1178,7 @@
       "value": "Urticaria"
     },
     "Public Chat*2": {
-      "value": false
+      "value": true
     },
     "Delay*3": {
       "value": 0.0
@@ -1269,7 +1263,7 @@
   },
   "module.other.timer.name": {
     "state": false,
-    "keyCode": 0,
+    "keyCode": 46,
     "Mode*1": {
       "value": "Balance"
     },
@@ -1543,7 +1537,7 @@
     "keyCode": 0
   },
   "module.player.manager.name": {
-    "state": true,
+    "state": false,
     "keyCode": 45,
     "Click Time*1": {
       "value": "Fast"
@@ -1556,7 +1550,7 @@
       "second": 0.0
     },
     "Legit*4": {
-      "value": false
+      "value": true
     },
     "Sword*5": {
       "value": true
@@ -1648,7 +1642,7 @@
       "value": "Auto Jump"
     },
     "Hide Jump*11": {
-      "value": true
+      "value": false
     },
     "Rotation Speed*12": {
       "first": 10.0,
@@ -1714,7 +1708,7 @@
     }
   },
   "module.player.stealer.name": {
-    "state": true,
+    "state": false,
     "keyCode": 45,
     "Click Time*1": {
       "value": "Normal"
@@ -1957,8 +1951,8 @@
     "state": true,
     "keyCode": 0,
     "*1": {
-      "positionX": 229.0,
-      "positionY": 299.0,
+      "positionX": 389.0,
+      "positionY": 479.0,
       "scaleX": 182.0,
       "scaleY": 22.0
     }
@@ -2061,7 +2055,7 @@
     "*27": {
       "positionX": 4.5,
       "positionY": 4.5,
-      "scaleX": 274.0,
+      "scaleX": 241.0,
       "scaleY": 17.0
     },
     "Modules to Show*28": {
@@ -2190,10 +2184,10 @@
     "state": true,
     "keyCode": 0,
     "Position*1": {
-      "positionX": 865.5,
+      "positionX": 815.5,
       "positionY": 230.5,
-      "scaleX": 90.0,
-      "scaleY": 96.0
+      "scaleX": 140.0,
+      "scaleY": 123.0
     }
   },
   "module.render.sessionstats.name": {
@@ -2263,9 +2257,9 @@
       "value": "Glass"
     },
     "Position*6": {
-      "positionX": 636.0,
+      "positionX": 652.0,
       "positionY": 375.5,
-      "scaleX": 162.0,
+      "scaleX": 146.0,
       "scaleY": 48.0
     },
     "Follow Player*7": {
