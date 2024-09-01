@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "version": "1.0",
+    "version": "1.3",
     "creationDate": "01.09.2024"
   },
   "module.combat.antibot.name": {
@@ -58,7 +58,7 @@
     }
   },
   "module.combat.killaura.name": {
-    "state": false,
+    "state": true,
     "keyCode": 19,
     "Attack Mode*1": {
       "value": "Switch"
@@ -151,7 +151,7 @@
       "value": false
     },
     "Mobs*30": {
-      "value": false
+      "value": true
     }
   },
   "module.combat.newteleportaura.name": {
@@ -1193,7 +1193,7 @@
       "value": false
     },
     "Public Chat*3": {
-      "value": true
+      "value": false
     },
     "Delay*4": {
       "value": 0.0
@@ -1308,7 +1308,7 @@
     }
   },
   "module.player.antivoid.name": {
-    "state": false,
+    "state": true,
     "keyCode": 44,
     "Mode*1": {
       "value": "Freeze"
@@ -1331,13 +1331,16 @@
     "Toggle Scaffold*7": {
       "value": false
     },
-    "Distance*8": {
-      "value": 5.0
+    "Mode*8": {
+      "value": "Less Move"
     },
     "Distance*9": {
       "value": 5.0
     },
     "Distance*10": {
+      "value": 5.0
+    },
+    "Distance*11": {
       "value": 5.0
     }
   },
@@ -1393,7 +1396,10 @@
     "Close when no golden apple*4": {
       "value": true
     },
-    "Notification*5": {
+    "Lag when in air*5": {
+      "value": true
+    },
+    "Notification*6": {
       "value": true
     }
   },
@@ -1636,7 +1642,7 @@
       "value": true
     },
     "Telly Ticks*4": {
-      "value": 3.0
+      "value": 2.0
     },
     "Up Telly Ticks*5": {
       "value": 2.0
@@ -1671,7 +1677,7 @@
     },
     "Place Delay*15": {
       "first": 0.0,
-      "second": 1.0
+      "second": 0.0
     },
     "Timer*16": {
       "value": 1.0
@@ -1972,8 +1978,8 @@
     "state": true,
     "keyCode": 0,
     "*1": {
-      "positionX": 229.0,
-      "positionY": 299.0,
+      "positionX": 389.0,
+      "positionY": 479.0,
       "scaleX": 182.0,
       "scaleY": 22.0
     }
@@ -2076,7 +2082,7 @@
     "*27": {
       "positionX": 4.5,
       "positionY": 4.5,
-      "scaleX": 273.0,
+      "scaleX": 241.0,
       "scaleY": 17.0
     },
     "Modules to Show*28": {
@@ -2102,6 +2108,9 @@
     },
     "Shaders*35": {
       "value": true
+    },
+    "Less Shaders*36": {
+      "value": false
     }
   },
   "module.render.itemphysics.name": {
@@ -2205,10 +2214,10 @@
     "state": true,
     "keyCode": 0,
     "Position*1": {
-      "positionX": 857.5,
-      "positionY": 122.5,
-      "scaleX": 84.0,
-      "scaleY": 150.0
+      "positionX": 882.5,
+      "positionY": 243.5,
+      "scaleX": 73.0,
+      "scaleY": 96.0
     }
   },
   "module.render.sessionstats.name": {
