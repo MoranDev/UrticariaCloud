@@ -1,1 +1,0 @@
-.\jdk\bin\java.exe -Dfile.encoding=UTF-8 -jar MoranBootstrap.jar
